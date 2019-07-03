@@ -18,3 +18,4 @@ jobs: # a collection of steps
          # command: yarn install --frozen-lockfile
       
       - run: bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
+      bash <(curl -s https://scripts.scantist.com/ci-circle.sh)
